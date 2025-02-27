@@ -14,13 +14,15 @@ export default function Pricing() {
 
   return (
     <>
+      {" "}
+      <PageHeading
+        title="Pricing"
+        bgSrc="images/about_hero_bg.jpeg"
+        pageLinkText="Pricing"
+      />
       <Div className="container">
         {/* Start Page Heading Section */}
-        <PageHeading
-          title="Pricing"
-          bgSrc="images/about_hero_bg.jpeg"
-          pageLinkText="Pricing"
-        />
+
         {/* End Page Heading Section */}
         <Div className="row mt-5">
           <Div className="col-xl-5 col-lg-7">
