@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SocialWidget from "../Widget/SocialWidget";
 // import Newsletter from '../Widget/Newsletter';
 import "./header.scss";
