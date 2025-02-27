@@ -50,7 +50,6 @@
   },
   "devDependencies": {
     "@iconify/react": "^4.0.0",
-    "cross-env": "^7.0.3",
-    "node-sass": "^7.0.3"
+    "cross-env": "^7.0.3"
   }
 }
