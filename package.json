@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "@iconify/react": "^4.0.0",
+    "ajv": "^8.17.1",
     "cross-env": "^7.0.3"
   }
 }
