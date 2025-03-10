@@ -146,8 +146,8 @@ export default function Home() {
       <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
-          title="Providing best <br/>pricing for client"
-          subtitle="Pricing & Packaging"
+          title="Get started <br/>on Mehchant"
+          subtitle="Mehchant by Lagos Labs"
         />
         <Spacing lg="85" md="40" />
         <PricingTableList />

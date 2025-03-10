@@ -28,12 +28,12 @@ export default function Services() {
   const showcaseData = [
     {
       title: 'Fulfilled by <br/> Mehchant',
-      imgUrl: '/images/mehchant.jpg',
+      imgUrl: '/images/fbmm.png',
       href: '/services/Mehchant',
     },
     {
       title: 'Smart <br/> Merchandising',
-      imgUrl: '/images/loverrr_2.png',
+      imgUrl: '/images/smart_merch.jpeg',
       href: '/services/merchandising',
     },
     {

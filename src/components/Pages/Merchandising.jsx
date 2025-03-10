@@ -5,9 +5,7 @@ import { pageTitle } from "../../helper";
 import Button from "../Button";
 import Cta from "../Cta";
 // import IconBox from '../IconBox'
-// import PricingTableList from "../PricingTableMerch/PricingTableList";
-import PricingTableList from "../PricingTableMehchant/PricingTableList";
-
+// import PricingTableList from "../PricingTableMehchant/PricingTableList";
 import PageHeading from "../PageHeading";
 import SectionHeading from "../SectionHeading";
 // import TestimonialSlider from '../Slider/TestimonialSlider'
@@ -99,7 +97,7 @@ export default function Merchandising() {
           </Div>
         </Div>
         {/* Start Pricing Section */}
-        <Spacing lg="145" md="80" />
+        {/* <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
             title="Providing best <br/>pricing for client"
@@ -108,7 +106,7 @@ export default function Merchandising() {
           <Spacing lg="85" md="40" />
           <PricingTableList />
         </Div>
-        <Spacing lg="125" md="55" />
+        <Spacing lg="125" md="55" /> */}
         {/* End Pricing Section */}
 
         <Spacing lg="65" md="10" />
