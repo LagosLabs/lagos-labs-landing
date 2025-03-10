@@ -31,12 +31,12 @@ export default function PricingTableList() {
               currency="$"
               timeline="monthly"
               features={[
-                "Static responsive website",
-                "Video marketing",
-                "Keywords research",
-                "Facebook campaign",
-                "eCommerce solution",
-                "Google adword",
+                "Store setup",
+                "1 additional inventory location",
+                "Localized global selling",
+                "Basic store analytics",
+                "Up to 77% off Shippping discount",
+                "3-days store cashout",
               ]}
               btnText="Purchase Now"
               btnLink="/"
@@ -45,16 +45,16 @@ export default function PricingTableList() {
           {tab === "yearly" && (
             <PricingTable
               title="Standard"
-              price="59"
+              price="19"
               currency="$"
               timeline="yearly"
               features={[
-                "Static responsive website",
-                "Video marketing",
-                "Keywords research",
-                "Facebook campaign",
-                "eCommerce solution",
-                "Google adword",
+                "Store setup",
+                "1 additional inventory location",
+                "Localized global selling",
+                "Basic store analytics",
+                "Up to 77% off Shippping discount",
+                "3-days store cashout",
               ]}
               btnText="Purchase Now"
               btnLink="/"
@@ -66,16 +66,16 @@ export default function PricingTableList() {
           {tab === "monthly" && (
             <PricingTable
               title="Professional"
-              price="199"
+              price="99"
               currency="$"
               timeline="monthly"
               features={[
-                "Static responsive website",
-                "Video marketing",
-                "Keywords research",
-                "Facebook campaign",
-                "eCommerce solution",
-                "Google adword",
+                "All Standard features",
+                "5 inventory locations",
+                "Localized global selling",
+                "Up to 88% off Shippping discount",
+                "Enhanced store manager",
+                "Email marketing",
               ]}
               btnText="Purchase Now"
               btnLink="/"
@@ -84,16 +84,16 @@ export default function PricingTableList() {
           {tab === "yearly" && (
             <PricingTable
               title="Professional"
-              price="399"
+              price="89"
               currency="$"
               timeline="yearly"
               features={[
-                "Static responsive website",
-                "Video marketing",
-                "Keywords research",
-                "Facebook campaign",
-                "eCommerce solution",
-                "Google adword",
+                "All Standard features",
+                "5 inventory locations",
+                "Localized global selling",
+                "Up to 88% off Shippping discount",
+                "Enhanced store manager",
+                "Email marketing",
               ]}
               btnText="Purchase Now"
               btnLink="/"
@@ -104,17 +104,17 @@ export default function PricingTableList() {
         <Section className="col-lg-4">
           {tab === "monthly" && (
             <PricingTable
-              title="Ultimate"
-              price="299"
-              currency="$"
+              title="Enterprise"
+              price="Contact Us"
+              currency=""
               timeline="monthly"
               features={[
-                "Static responsive website",
-                "Video marketing",
-                "Keywords research",
-                "Facebook campaign",
-                "eCommerce solution",
-                "Google adword",
+                "All standard & professional features",
+                "Multiple store management",
+                "Upto 88% off Shippping discount",
+                "Dedicated account manager",
+                "Mehchant API access",
+                "Custom store design",
               ]}
               btnText="Purchase Now"
               btnLink="/"
@@ -122,17 +122,17 @@ export default function PricingTableList() {
           )}
           {tab === "yearly" && (
             <PricingTable
-              title="Ultimate"
-              price="599"
-              currency="$"
+              title="Enterprise"
+              price="Contact Us"
+              currency=""
               timeline="yearly"
               features={[
-                "Static responsive website",
-                "Video marketing",
-                "Keywords research",
-                "Facebook campaign",
-                "eCommerce solution",
-                "Google adword",
+                "All standard & professional features",
+                "Multiple store management",
+                "Upto 88% off Shippping discount",
+                "Dedicated account manager",
+                "Mehchant API access",
+                "Custom store design",
               ]}
               btnText="Purchase Now"
               btnLink="/"

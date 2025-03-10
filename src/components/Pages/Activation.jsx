@@ -8,7 +8,7 @@ import Cta from "../Cta";
 import PageHeading from "../PageHeading";
 import Div from "../Div";
 import SectionHeading from "../SectionHeading";
-import PricingTableList from "../PricingTableActivate/PricingTableList";
+// import PricingTableList from "../PricingTableActivate/PricingTableList";
 // import TestimonialSlider from '../Slider/TestimonialSlider'
 import Spacing from "../Spacing";
 // import VideoModal from '../VideoModal'
@@ -101,7 +101,7 @@ export default function Activation() {
         </Div>
 
         {/* Start Pricing Section */}
-        <Spacing lg="145" md="80" />
+        {/* <Spacing lg="145" md="80" />
         <Div className="container">
           <SectionHeading
             title="Providing best <br/>pricing for client"
@@ -110,7 +110,7 @@ export default function Activation() {
           <Spacing lg="85" md="40" />
           <PricingTableList />
         </Div>
-        <Spacing lg="125" md="55" />
+        <Spacing lg="125" md="55" /> */}
         {/* End Pricing Section */}
 
         <Spacing lg="65" md="10" />
