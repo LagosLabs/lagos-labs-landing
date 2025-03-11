@@ -27,8 +27,8 @@ export default function Pricing() {
         <Div className="row mt-5">
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
-              title="We are Tokenizing the Fan Experience for All."
-              subtitle="Pricing"
+              title="Get started <br/>on Mehchant"
+              subtitle="Mehchant by Lagos Labs"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
