@@ -1,5 +1,5 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
 // import ReactGA from 'react-ga4';
 
 import AboutPage from "./components/Pages/AboutPage";
@@ -28,9 +28,32 @@ import Portfolio from "./components/Pages/Portfolio";
 import Activation from "./components/Pages/Activation";
 import Merchandising from "./components/Pages/Merchandising";
 import Pricing from "./components/Pages/Pricing";
+import TagManager from "react-gtm-module";
 // new page deployment
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const tagManagerArgs = {
+      gtmId: "GTM-MX9L3CG9"
+    };
+    TagManager.initialize(tagManagerArgs);
+  }, []);
+
+  useEffect(() => {
+    TagManager.dataLayer({
+      dataLayer: {
+        event: 'pageview',
+        page: {
+          path: location.pathname,
+          search: location.search,
+          hash: location.hash
+        }
+      }
+    });
+  }, [location]);
+
   return (
     <>
       <Routes>
