@@ -46,7 +46,7 @@ export default function PricingTableList() {
                 "3-days store cashout",
               ]}
               btnText="Purchase Now"
-              btnLink="/"
+              btnLink="/contact"
             />
           )}
           {tab === "yearly" && (
@@ -64,7 +64,7 @@ export default function PricingTableList() {
                 "3-days store cashout",
               ]}
               btnText="Purchase Now"
-              btnLink="/"
+              btnLink="/contact"
             />
           )}
           <Spacing lg="25" md="25" />
@@ -82,10 +82,10 @@ export default function PricingTableList() {
                 "Localized global selling",
                 "Up to 88% off Shippping discount",
                 "Enhanced store manager",
-                "Email marketing",
+                "Mehchant API access",
               ]}
               btnText="Purchase Now"
-              btnLink="/"
+              btnLink="/contact"
             />
           )}
           {tab === "yearly" && (
@@ -100,10 +100,10 @@ export default function PricingTableList() {
                 "Localized global selling",
                 "Up to 88% off Shippping discount",
                 "Enhanced store manager",
-                "Email marketing",
+                "Mehchant API access",
               ]}
               btnText="Purchase Now"
-              btnLink="/"
+              btnLink="/contact"
             />
           )}
           <Spacing lg="25" md="25" />
@@ -120,11 +120,11 @@ export default function PricingTableList() {
                 "Multiple store management",
                 "Upto 88% off Shippping discount",
                 "Dedicated account manager",
-                "Mehchant API access",
+                "Full scale product development",
                 "Custom store design",
               ]}
               btnText="Purchase Now"
-              btnLink="/"
+              btnLink="/contact"
             />
           )}
           {tab === "yearly" && (
@@ -138,11 +138,11 @@ export default function PricingTableList() {
                 "Multiple store management",
                 "Upto 88% off Shippping discount",
                 "Dedicated account manager",
-                "Mehchant API access",
+                "Full scale product development",
                 "Custom store design",
               ]}
               btnText="Purchase Now"
-              btnLink="/"
+              btnLink="/contact"
             />
           )}
           <Spacing lg="25" md="25" />
