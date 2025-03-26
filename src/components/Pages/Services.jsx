@@ -38,12 +38,12 @@ export default function Services() {
     },
     {
       title: 'Digital <br/> Asset Management',
-      imgUrl: '/images/creative_1.jpg',
+      imgUrl: '/images/lagos_event.png',
       href: '/services/fan-economy',
     },
     {
       title: 'Fan <br/> Activation',
-      imgUrl: '/images/creative_5.png',
+      imgUrl: '/images/bubbleboy_3.png',
       href: '/services/activation',
     },
   ];

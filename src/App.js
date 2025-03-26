@@ -36,7 +36,7 @@ function App() {
 
   useEffect(() => {
     const tagManagerArgs = {
-      gtmId: "GTM-MX9L3CG9"
+      gtmId: process.env.REACT_APP_GTM_ID
     };
     TagManager.initialize(tagManagerArgs);
   }, []);
@@ -95,7 +95,7 @@ function App() {
           <Route path="contact" element={<ContactPage />} />
           <Route path="team" element={<TeamPage />} />
 
-          <Route path="/litepaper" element={<Litepaper />} />
+          <Route path="litepaper" element={<Litepaper />} />
           <Route path="faq" element={<FaqPage />} />
         </Route>
         <Route path="*" element={<ErrorPage />} />
